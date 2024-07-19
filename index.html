@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<title>LAW FIRM INFORMATION MANAGEMENT SYSTEM</title>
+</head>
+<body>
+
+<header>
+    <fieldset>
+        <h1 style="color:black;">LAW FIRM INFORMATION MANAGEMENT SYSTEM</h1>
+    </fieldset>
+    <fieldset>
+        <div class="navigation">
+            <a class="active" href="#home"> Home </a>
+            <a href="https://kenyalaw.org/caselaw/">Case Laws</a>
+            <a href="#Contacts">Contacts</a>
+            <a href="https://causelist.court.go.ke/">Cause List</a>
+            <a href="#About">About</a>
+        </div>
+    </fieldset>
+</header>
+
+<br><br>
+
+<fieldset>
+    <legend><h2>Client Registration:</h2></legend>
+    <form id="clientForm" autocomplete="off" onsubmit="onFormSubmit(event)">
+        <div>
+            <label for="clientname">Clients Name</label>
+            <input type="text" name="clientname" id="clientname">
+        </div> <br><br>
+        <div>
+            <label for="id_ppno">ID/PP NO  </label>
+            <input type="text" name="id_ppno" id="id_ppno">
+        </div> <br><br>
+        <div>
+            <label for="partylevel">Party Level</label>
+            <input type="text" name="partylevel" id="partylevel">
+        </div><br><br>
+        <div>
+            <label for="nationality">Nationality</label>
+            <input type="text" name="nationality" id="nationality">
+        </div><br><br>
+        <div>
+            <label for="casetype">Case Type </label>
+            <input type="text" name="casetype" id="casetype">
+        </div>
+        <br><br>
+        <div class="form-action--button">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend><H2>Client Data </H2></legend>
+    
+    <table id="clientlist">
+        <thead>
+            <tr>
+                <th>Client Name</th>
+                <th>ID/PPNO</th>
+                <th>Party Level</th>
+                <th>Nationality</th>
+                <th>Case Type</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- On this section this is where the clints information will be stored and can be viewed in a table -->
+        </tbody>
+        
+    </table>
+    </fieldset>
+
+
+<div id="msg"></div>
+
+<script src="/js/index.js"></script>
+</body>
+</html>

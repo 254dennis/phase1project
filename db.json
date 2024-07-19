@@ -1,0 +1,15 @@
+{
+    "posts" :[
+
+        {
+            "id": 1,
+            "fname": "dennis",
+            "lname":"mwangi",
+            "identity": "33562563",
+            "YOB":"2000",
+            "plevel": "first",
+            "Mobile":"0111333430",
+            "email": "info.dennismwangi@gmail.com"
+        }
+    ]
+}

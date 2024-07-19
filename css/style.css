@@ -1,0 +1,106 @@
+body {
+  padding: 10px;
+  background-color: rgb(126, 120, 120);
+  color: black;
+  font-size: 18px;
+  justify-content: center;
+}
+h1{
+    text-align: center;
+}
+/* dark mode toggle */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.navigation {
+    background-color: black;
+    overflow: hidden;
+}
+/* styling inside the home navigation bar */
+.navigation a {
+    float: left;
+    color: blueviolet;
+    text-align: left;
+    padding: 15px 14px;
+    text-decoration: wavy;
+    font-size: 20px;
+    justify-content: left;
+
+
+}
+
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 100%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+tr{
+    width: 20px;
+    padding: 3pc;
+}
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #db7f7f;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
